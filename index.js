@@ -8,10 +8,12 @@ const cart_router = require("./routers/cart-router");
 const product_router = require("./routers/product-router");
 const payment_router = require("./routers/payment-router");
 const app = express();
+const {limiter}=require("./middleware/api-rate-limit")
 const port = process.env.SERVER_PORT;
 // middle ware
 app.use(cors());
 app.use(express.json());
+app.use(limiter);
 // router
 app.get("/", async (req, res) =>
   res.send("Triveous assignment...Backend... Ecom..App ready...")
