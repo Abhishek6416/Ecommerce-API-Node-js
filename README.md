@@ -13,18 +13,18 @@ Clone the Repository from GitHub. Then do the following steps:
 ```bash
     npm init -y
 
-    npm i express mongoose cors bcrypt dotenv jsonwebtoken nodemon express-rate-limit
+    npm i express mongoose cors bcrypt dotenv jsonwebtoken nodemon randomstring
 ```
 ## To run server (PORT = 8080)
 ```bash
-    npm run server
+    node index.js
 ```
 
 ## Some HTTP (Hyper Text Transfer Protocol) Status Code Which I used :
      
      200 --->  OK/Success/get/put/Created/post
 
-     500 ---> Not Found/failure
+     500 ---> Not Found/failure/status:false
 
 ### NOTE: Used Timestamps & Date datatypes which allow by BSON.
 
@@ -32,23 +32,17 @@ Clone the Repository from GitHub. Then do the following steps:
 Ecommerce
 # Schema
 
-#### 1) *cart-schema*:
+#### 1) *user-schema*:
+Collection Name: users
 
-Collection Name: cart
+   - name --> String
 
-- title --> String
+   - email --> String
 
-- description --> String
+   - password --> String
 
-- category --> String
 
-- image --> String
-
-- qty --> Number
-
-- price --> String
-
-#### 2) *product-schema*:
+ #### 2) *product-schema*:
   Collection Name: products
 
    - title --> String
@@ -61,17 +55,23 @@ Collection Name: cart
 
   - price --> Number
   
-   
-#### 3) *user-schema*:
-Collection Name: users
 
-   - name --> String
 
-   - email --> String
+#### 3) *cart-schema*:
 
-   - password --> String
+Collection Name: carts
 
-  
+- title --> String
+
+- description --> String
+
+- category --> String
+
+- image --> String
+
+- qty --> Number
+
+- price --> String
 
 
 #### 4) *payment-schema*:
