@@ -13,7 +13,7 @@ Clone the Repository from GitHub. Then do the following steps:
 ```bash
     npm init -y
 
-    npm i express mongoose cors bcrypt dotenv jsonwebtoken nodemon express-rate-limit
+    npm i express mongoose cors bcrypt dotenv jsonwebtoken nodemon randomstring
 ```
 ## To run server (PORT = 8080)
 ```bash
