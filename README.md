@@ -41,9 +41,25 @@ Collection Name: users
 
    - password --> String
 
-#### 2) *cart-schema*:
 
-Collection Name: cart
+ #### 2) *product-schema*:
+  Collection Name: products
+
+   - title --> String
+
+   - description --> String
+
+  - category --> String
+
+  - image --> String
+
+  - price --> Number
+  
+
+
+#### 3) *cart-schema*:
+
+Collection Name: carts
 
 - title --> String
 
@@ -57,19 +73,6 @@ Collection Name: cart
 
 - price --> String
 
-#### 3) *product-schema*:
-  Collection Name: products
-
-   - title --> String
-
-   - description --> String
-
-  - category --> String
-
-  - image --> String
-
-  - price --> Number
-  
 
 #### 4) *payment-schema*:
 Collection Name: orders
