@@ -14,7 +14,7 @@ app.use(cors());
 app.use(express.json());
 // router
 app.get("/", async (req, res) =>
-  res.send("Travious assignment... Ecom..App ready...")
+  res.send("Triveous assignment...Backend... Ecom..App ready...")
 );
 app.use("/api/v1", user_router);
 app.use("/api/v1", cart_router);
