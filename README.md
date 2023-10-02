@@ -32,7 +32,16 @@ Clone the Repository from GitHub. Then do the following steps:
 Ecommerce
 # Schema
 
-#### 1) *cart-schema*:
+#### 1) *user-schema*:
+Collection Name: users
+
+   - name --> String
+
+   - email --> String
+
+   - password --> String
+
+#### 2) *cart-schema*:
 
 Collection Name: cart
 
@@ -48,7 +57,7 @@ Collection Name: cart
 
 - price --> String
 
-#### 2) *product-schema*:
+#### 3) *product-schema*:
   Collection Name: products
 
    - title --> String
@@ -61,18 +70,6 @@ Collection Name: cart
 
   - price --> Number
   
-   
-#### 3) *user-schema*:
-Collection Name: users
-
-   - name --> String
-
-   - email --> String
-
-   - password --> String
-
-  
-
 
 #### 4) *payment-schema*:
 Collection Name: orders
