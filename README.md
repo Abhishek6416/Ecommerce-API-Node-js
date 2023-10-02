@@ -24,7 +24,7 @@ Clone the Repository from GitHub. Then do the following steps:
      
      200 --->  OK/Success/get/put/Created/post
 
-     500 ---> Not Found/failure
+     500 ---> Not Found/failure/status:false
 
 ### NOTE: Used Timestamps & Date datatypes which allow by BSON.
 
