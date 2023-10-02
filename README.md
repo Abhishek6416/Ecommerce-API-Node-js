@@ -17,7 +17,7 @@ Clone the Repository from GitHub. Then do the following steps:
 ```
 ## To run server (PORT = 8080)
 ```bash
-    nodemon index.js
+    node index.js
 ```
 
 ## Some HTTP (Hyper Text Transfer Protocol) Status Code Which I used :
