@@ -4,7 +4,7 @@
 This project will deliver a comprehensive e-commerce API set that enables seamless product and category management, user authentication, secure cart management, and order processing. The integration of MongoDB as the database and token management system ensures efficient data storage and user authentication with minimal server-side setup.
 
 ## Live/deploy link on the render
-https://node-ecom-j5u0.onrender.com
+https://node-ecoms.onrender.com/
 
 ## Installation & Tech Stack
 
@@ -212,22 +212,20 @@ Used for orderconfirmed / Order Placement by particluar authenticated user
 ##### Output: 
 
 {
-  "msg": "OK",
-  "newOrder": {
-    "userId": "64be861288ff9ba7252aa32e",
-    "cartId": "64bebf684ac081d8292327a8",
-    "status": [
-      "orderconfirmed"
-    ],
-    "currentStatus": "orderconfirmed",
-    "priceTotal": 36,
-    "paymentMethod": "Net Banking",
-    "DeliveryAdress": "Kanpur UP",
-    "OrderDelivered": false,
-    "DeliveryDate": "29/07/2023",
-    "_id": "64bf4d78a141a7319b7aa1e7",
-    "createdAt": "2023-07-25T04:20:08.451Z",
-    "updatedAt": "2023-07-25T04:20:08.451Z"
+  _id
+6519d3a8b26300e1bd566863
+userName
+"abk"
+payemntId
+"f4CzpOnKfSil1aE4lxkmtZfH2wnVmzwf"
+totalAmount
+900
+createdAt
+2023-10-01T20:16:40.396+00:00
+updatedAt
+2023-10-01T20:16:40.396+00:00
+__v
+0
   }
 }
 
